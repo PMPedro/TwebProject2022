@@ -1,4 +1,17 @@
-.ola{
-background-color: blue;
+.FirstHeader ul li{
+display:inline-block;
+color: white;
+padding-left: 3%;
 
 }
+
+.FirstHeader {
+background-color: black;
+position: fixed;
+top: 0;
+width: 100%; 
+text-transform: uppercase;
+font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+}
+
+
