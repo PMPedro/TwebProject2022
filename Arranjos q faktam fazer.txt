@@ -3,3 +3,8 @@
 ->2 header, centrar o texto verticalmente 
 ->Tipo de letra, selects (aspeto) e texto  da searchbar
 ->Fazer JS para Menu (Em último) 
+
+Falta fazer para ter base ->
+
+->Grid com as imagens 
+->Footers

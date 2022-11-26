@@ -39,7 +39,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubun
     .sp{
         height: 18%;
         width: 50%;
-        position: fixed;
+        position: absolute;
         z-index: 1;
         top: 12%;
         overflow-x: hidden;
@@ -70,3 +70,38 @@ font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubun
 .SearchBar {
     line-height: 30px;
 }
+
+.Content{
+    padding-top: 15%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 50px;
+  }
+  .gridItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+
+  .Content img {
+    width: 70%;
+  }
+
+  .Content .dir {
+    color: rgb(82, 184, 218);
+    font-size: 100%;
+  }
+
+  .Content .esq {
+    font-size: 50%;
+  }
+
+
+
