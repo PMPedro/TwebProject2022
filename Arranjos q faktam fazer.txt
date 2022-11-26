@@ -1,13 +1,16 @@
-->Responsive
-->Acabar 1 header preto
-->2 header, centrar o texto verticalmente 
-->Tipo de letra, selects (aspeto) e texto  da searchbar
-->Fazer JS para Menu (Em último) 
--> Meter borders na grid de imagens 
-->Buscar novas imagens de carros e meter carros diferentes
-->Maneira de clicar nos carros, e aparecer menu de compra
+Detalhes a fazer 
+	->Responsive (1/2)
+	->Acabar 1 header preto
+	->2 header, centrar o texto verticalmente 
+	->selects (aspeto) e texto  da searchbar
+	->Buscar novas imagens de carros e meter carros diferentes
+	->Maneira de clicar nos carros, e aparecer menu de compra
+	->acabar detalhes de footer
+	-> Mudar aspeto de todos os butoes, selects. etc
+	->Meter o 1 "AutoSapo" na esquerda 
 
-Falta fazer para ter base ->
 
+Falta fazer para ter base 
+	->Fazer JS para Menu (Em último) 
+	->Funções JS
 
-->Footers
