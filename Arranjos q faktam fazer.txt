@@ -3,8 +3,11 @@
 ->2 header, centrar o texto verticalmente 
 ->Tipo de letra, selects (aspeto) e texto  da searchbar
 ->Fazer JS para Menu (Em último) 
+-> Meter borders na grid de imagens 
+->Buscar novas imagens de carros e meter carros diferentes
+->Maneira de clicar nos carros, e aparecer menu de compra
 
 Falta fazer para ter base ->
 
-->Grid com as imagens 
+
 ->Footers
