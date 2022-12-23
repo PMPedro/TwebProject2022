@@ -1,152 +1,269 @@
-* {
-    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-}
-.FirstHeader ul li{
-display:inline-block;
-color: white;
-padding-left: 3%;
-}
-.FirstHeader {
-background-color: black;
-position: fixed;
-top: 0;
-width: 100%; 
-text-transform: uppercase;
-font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-}
 
-.SecondHeader ul li{
-    display:inline-block;
-    color: black;
-    padding-left: 3%;
-    }
-.SecondHeader{
-    background-color: rgb(211, 206, 206);
-    position: relative;
-    top: 40;
-    width:100%; 
-    height: 7%;
-    text-transform: uppercase;
-    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-}
-.SHHeader {
-    text-align: right;
-    padding-right: 10%;
-}
-.SHHeader .Title {
-    font-size: 40px;
-    clear: both;
+  .s1{
+    width: 300px;
+    height: 35px;
+    margin-top: 1px;
+    border-radius: 3px;
+    font-weight: lighter;
+  }
+  .s2{
+    width: 150px;
+    height: 35px;
+    margin-top: 1px;
+    border-radius: 3px;
+    font-weight: lighter;
+  }
+  .Titulos_select{
+    font-weight: lighter;
+    font-size: 10px;
+    color: #f5f5f5;
     text-align: left;
-    }
-
-    .sp{
-        height: 20%;
-        width: 50%;
-        position: absolute;
-        z-index: 1;
-        top: 12%;
-        overflow-x: hidden;
-        padding-top: 20px;
-    }
-    .Right{ 
-         right: 0;
-        background-color: 6f6d66;
-    }
-    .Left{
-        left: 0;
-        background-color: 6f6d66;
-    }
-
-    .dir {
-        float: right;
-        width: 25%;
-        padding-right: 10%;
-
-    }
-
-    .esq {
-        float: left;
-      width: 25%;
-      padding-left: 10%;
-    }
-
-.SearchBar {
-    line-height: 30px;
-}
-
-.Content{
-    padding-top: 15%;
-}
-
-.gridContainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+  }
+  .pesquisar{
+width: 300px;
+height: 30px;
+background-color: #00a693;
+margin-top: 35px;
+  }
+  ::placeholder {
+    font-size: 17px;
+    background-color: #00a693;
     padding: 10px;
-    grid-gap: 50px;
-  }
-  .gridItem {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    border: 1px solid black;
-  }
-
-
-  .Content img {
-    width: 70%;
-  }
-
-  .Content .dir {
-    color: rgb(82, 184, 218);
-    font-size: 100%;
-  }
-
-  .Content .esq {
-    font-size: 50%;
-  }
-
-  .postImages {
-   color: white;
-    height: 20%;
-    background-color: 6f6d66;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .Newsletter {
-    background-color: rgb(211, 206, 206);
-    padding-top: 1%;
-    height: 15%;
-    text-align: left;
-    font-size: 15px;
-    color: rgb(75, 72, 72);
-  }
-
-  .Newsletter p {
-    font-size: 25px;
-  }
-
-  .footer {
-   
-    position: relative;
-    height: fit-content;
     color: white;
-    font-size: 50px;
-    padding-bottom: 10%;    
-    background-color: rgb(75, 72, 72);
   }
 
-  .gridContainer2 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-    grid-gap: 50px;
+	.grid_selects {
+    width: 100%;
+	  display: grid;
+	  grid-template-columns: 25% 25% 50%;
+    background-color: #383838;
+    height: 400px;
+	}
+  .coluna3 {
+    height: 360px;
+	}
+  .coluna2 {
+	  padding: 16px;
+    height: 360px;
+	}
+  .coluna1 {
+	  padding: 16px;
+    height: 360px;
+    margin-left: 40px;
+	}
+  body{
+    margin: 0%;
   }
-  .gridItem2 {
-    
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
- 
-  }
+  .FirstHeader ul li{
+    display:inline-block;
+    color: gray;
+    padding-left: 1%;
+    }
+    .FirstHeader {
+      display: grid;
+      grid-template-columns: 15% 65% 10% 10%;
+    background-color: black;
+    width: 100%; 
+    text-transform: uppercase;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    }
+    .SecondHeader{
+      margin-top: -15px;
+        background-color: whitesmoke;
+        width:100%; 
+        height: 100px;
+        text-transform: uppercase;
+        font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    }
+    #Logo {
+      display: inline;
+      padding-right: 0%;
+        font-size: 50px;
+        color: slategray;
+        margin-right: 580px;
+        margin-left: 30px;
+        }
+        .SHHeader .Opcao{
+          font-size: 20px;
+          display: inline;
+          margin-left: 30px;
+        }
+       .coluna3 img{
+          width: 90%;
+          height: 400px;
+        }
+        .logo_sapo img{
+          width: 80%;
+          height: 100%;
+          margin-left: 50px;
+        }
+        .mailIcon img{
+          margin-top: 20%;
+          margin-left: 65%;
+          height: 30%;
+          width: 20%;
+        }
+        .pessoaIcon img{
+          margin-top: 20%;
+          margin-right: 60%;
+          height: 30%;
+          width: 20%;
+        }
+        .Content .dir {
+          float: right;  
+          color: rgb(82, 184, 218);
+          font-size: 100%;
+        }
+      
+        .Content .esq {
+          float: left;
+          font-size: 50%;
+        }
+        .gridContainer {
+          margin-top: 185px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 10px;
+            grid-gap: 50px;
+          }
+          .gridItem {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+          }
+          .gridItem img{
+  width: 100%;
+          }
+          .gridIcons {
+            margin-top: 5%;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-gap: 10px;
+          padding-left: 5%;
+          padding-right: 5%;
+          height: 20%;
+            }
+          .gridIcons p{
+            text-align:center;
+            padding-top: 15%;
+            font-size: 80%;
+            color: rgb(82, 184, 218);
+            padding-bottom: 30px;
+          }
+          .gridIconsItem img{
+            margin-top: -10%;
+            margin-left: 37%;
+            width: 25%;
+            height: 50%;
+            border-radius: 100px;
+            background-image: linear-gradient(ivory,lightgray);
+          }
+          .gridIconsItem{
+            margin-top: 10%;
+            margin-bottom: 10%;
+            border: 2px solid lightgray;
+            border-radius: 4px;
+            height: 50%;
+            width: 90%;
+          }
+          .postImagesGrid{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            height: 25%;
+            background-color: dimgray;
+          }
+          .postImagesGridItem{            
+            text-align: center;
+            color: white;
+            margin-top: 5%;
+            font-size: large;
+          }
+          .postImagesGrid input{
+            margin-top: 5%;
+            color: white;
+            background-color:  rgb(82, 184, 218);
+            border-radius: 4px;
+            border: 2px solid dimgray;
+          }
+          .buttonCarregarMais input{
+            text-align: center;
+            font-size: 90%;
+            border: 1px solid gray;
+            background-color: white;
+            margin-left: 40%;
+            width: 15%;
+            height: 55%;
+            color: rgb(82, 184, 218);
+            border-radius: 4px;
+          }
+          .buttonCarregarMais{
+            height: 10%;
+          }
+          .NewsLetter{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: whitesmoke;
+            /*border: 2px solid magenta;*/
+            margin-top: -1%;
+            height: 15%;
+          }
+          .footer{
+            background-color: black;
+            color: gray;
+          }
+          .NewsLetterItem{
+            text-align: center;
+          }
+          .NewsLetterItem input{
+            margin-top: 5%;
+            margin-left: -70%;
+            background-color: #00a693;
+            color: white;
+            height: 40%;
+            width: 25%;
+            border-radius: 4px;
+            border: 2px solid white;
+          }
+
+          .gridContainer2 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 10px;
+            grid-gap: 50px;
+          }
+          .gridItem2 {
+            
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+         
+          }
+
+          .Hided{
+              display: none;
+              background-color: darkgray;
+              text-align: center;
+              padding-left: 5%;
+              padding-top: 1%;
+             
+          }
+
+
+          .Hided input {
+            margin-top: 5%;
+            color: white;
+            background-color:  rgb(82, 184, 218);
+            border-radius: 4px;
+            border: 2px solid dimgray; 
+          }
+
+        .FirstHeader button {
+          border: none;
+          border-bottom: 2px solid red;
+          color: white;
+          background-color: black;
+
+        }
+        
